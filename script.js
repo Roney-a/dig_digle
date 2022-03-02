@@ -55,6 +55,7 @@ const appear = (letters,colors) => {
     }
     if (success === 1){
         description.innerText = "Success!";
+        error.innerText = "";
         bgcr.style.background =  "linear-gradient(45deg, rgba(192, 64, 198, 0.8) -141%, rgba(229, 233, 77, 0.8))";
     }
     if (j > 5){
